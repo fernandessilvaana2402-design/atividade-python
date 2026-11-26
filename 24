@@ -1,0 +1,4 @@
+texto = input("Digite uma palavra ou frase: ")
+quantidade = len(texto)
+
+print(f"O texto possui {quantidade} caracteres (incluindo espaços).")
