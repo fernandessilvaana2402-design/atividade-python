@@ -1,0 +1,8 @@
+import math
+
+num = float(input("Digite un número: "))
+quadrado = num ** 2
+raiz = math.sqrt(num) if num >= 0 else "Inexistente nos reais"
+
+print(f"O quadrado é: {quadrado}")
+print(f"A raiz quadrada é: {raiz}")
