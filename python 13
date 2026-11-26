@@ -1,0 +1,8 @@
+nota = float(input("Digite uma nota de 0 a 10: "))
+
+if nota < 5:
+    print("Nota Insuficiente.")
+elif nota >= 7:
+    print("Nota Boa.")
+else:
+    print("Nota Regular.")
