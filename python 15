@@ -1,0 +1,4 @@
+nome = input("Qual é o seu nome? ")
+cidade = input("Em qual cidade você mora? ")
+
+print(f"Olá {nome}, você mora em {cidade}!")
