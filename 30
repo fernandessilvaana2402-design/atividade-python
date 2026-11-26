@@ -1,0 +1,8 @@
+a = float(input("Digite o comprimento do lado A: "))
+b = float(input("Digite o comprimento do lado B: "))
+c = float(input("Digite o comprimento do lado C: "))
+
+if (a + b > c) and (a + c > b) and (b + c > a):
+    print("É possível formar um triângulo!")
+else:
+    print("Não é possível formar um triângulo.")
