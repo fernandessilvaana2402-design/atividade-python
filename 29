@@ -1,0 +1,5 @@
+palavra = input("Digite uma palavra: ")
+vezes = int(input("Digite o número de repetições: "))
+
+for _ in range(vezes):
+    print(palavra)
