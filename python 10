@@ -1,0 +1,7 @@
+TAXA_FIXA_DOLAR = 5.82
+
+valor_reais = float(input("Digite o valor em reais (R$): "))
+
+valor_dolares = valor_reais / TAXA_FIXA_DOLAR
+
+print(f"R$ {valor_reais:.2f} equivalem a US$ {valor_dolares:.2f} (Taxa fixa: R$ {TAXA_FIXA_DOLAR:.2f})")
