@@ -1,0 +1,8 @@
+preco = float(input("Digite o preço original: R$ "))
+desconto_pct = float(input("Digite o percentual de desconto (ex: 10): "))
+
+valor_desconto = preco * (desconto_pct / 100)
+preco_final = preco - valor_desconto
+
+print(f"Valor do desconto: R$ {valor_desconto:.2f}")
+print(f"Preço final: R$ {preco_final:.2f}")
